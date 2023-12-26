@@ -1,0 +1,4 @@
+h5py
+numpy
+pyyaml
+pytorch-fid

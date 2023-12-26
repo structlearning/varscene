@@ -1,0 +1,37 @@
+device: 'cuda'
+## device: 'cpu'
+graphrnn_baseline: False
+permutation: 'random'
+bias_constant: 0.25
+# sequence size
+min_num_node: 2
+max_num_node: 60
+max_edge_len: 25
+
+# node/edge categories
+num_node_categories: 16944
+num_edge_categories: 8414
+node_EOS_token: 16943
+edge_SOS_token: 8413
+no_edge_token: 8412
+
+# embedding
+node_emb_size: 16
+edge_emb_size: 8
+
+# GRU_graph
+ggru_emb_size: 8
+ggru_hidden_size: 16
+ggru_num_layers: 3
+
+# MLP_node
+mlp_input_size: 16
+mlp_emb_size: 4
+mlp_out_size: 16944
+
+# GRU_edge
+egru_hidden_size: 8
+egru_emb_input_size: 16
+egru_num_layers: 3
+egru_emb_output_size: 8
+egru_output_size: 8412

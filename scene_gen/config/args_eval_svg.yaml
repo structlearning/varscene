@@ -1,0 +1,16 @@
+data_path: 'data/svg/'
+model_path: 'checkpoints/svg/'
+eval_path: 'eval/svg/'
+
+device: 'cuda'
+# device: 'cpu'
+
+# options for main_eval_sg
+generate_prior_distribution: True
+generate_sg_samples: True
+num_generated_samples: 150000
+compute_mmd: False
+# compute_mmd: True
+num_samples_mmd: 2000
+
+# options for main_eval_images

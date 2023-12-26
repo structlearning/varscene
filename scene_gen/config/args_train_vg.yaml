@@ -1,0 +1,18 @@
+data_path: 'data/vg/'
+model_path: 'checkpoints/vg/'
+## device: 'cpu'
+device: 'cuda'
+
+# batching and epochs
+num_workers: 2
+batch_size: 64
+sample_batches: 256
+epochs: 300
+
+# learning rate
+node_lr_init: 0.001
+node_lr_end: 0.0001
+node_lr_decay: 0.95
+edge_lr_init: 0.001
+edge_lr_end: 0.0001
+edge_lr_decay: 0.95

@@ -1,0 +1,16 @@
+data_path: 'data/vrd/'
+model_path: 'checkpoints/vrd/'
+eval_path: 'eval/vrd/'
+
+device: 'cuda'
+# device: 'cpu'
+
+# options for main_eval_sg
+generate_prior_distribution: True
+generate_sg_samples: True
+num_generated_samples: 85000
+compute_mmd: False
+# compute_mmd: True
+num_samples_mmd: 2000
+
+# options for main_eval_images
