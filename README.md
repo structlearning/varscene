@@ -1,4 +1,4 @@
-# VarScene: A Deep Generative Model for Realistic Scene Graph Synthesis
+# VarScene: A Deep Generative Model for Realistic Scene Graph Synthesis ICML 2022.
 
 ## Requirements
 
